@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Roboto_Mono } from "next/font/google"; // Import Inter and a monospace font
+import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({

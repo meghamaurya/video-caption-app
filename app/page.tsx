@@ -9,6 +9,7 @@ export default function Home() {
   const [captions, setCaptions] = useState([{ text: "", time: 0 }]);
   const [currentCaption, setCurrentCaption] = useState("");
   const [timestamp, setTimestamp] = useState("");
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const playerRef = useRef<any>(null);
   const [currentTime, setCurrentTime] = useState(0);
   const [captionError, setCaptionError] = useState("");
